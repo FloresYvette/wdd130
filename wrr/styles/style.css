@@ -29,10 +29,12 @@ nav a:hover{
 h4{
     color: rgb(7, 8, 14);
 }
+
 #hero-img{
     height: 600px;
     width: 100%;
 }
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
@@ -79,12 +81,12 @@ main section {
 
 footer{
     background-color: rgba(245, 138, 16);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 footer h3{
     color: rgb(2, 48, 71);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 footer a{
@@ -94,6 +96,6 @@ footer a{
 
 footer a:hover{
     color: rgb(33, 158, 188);
-    text-decoration: underline;
+    text-decoration: none;
  
 }
