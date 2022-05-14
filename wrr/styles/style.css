@@ -1,5 +1,9 @@
 body {
-    background-color: #fcfbfb;
+    background-color: #dfd19bc5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -11,14 +15,20 @@ header {
     margin: 0 auto;
 }
 
+h2 {
+    margin: 0;
+}
+
 .home-little{
    color: #f79310f3;
+   font-size: 2em;
+   margin-top: 10px;
 }
 nav a {
    text-align: center;
    color: rgb(15, 9, 87);
    text-decoration: none;
- 
+   padding: 35px;
 }
 
 nav a:hover{
@@ -41,30 +51,43 @@ h4{
 
 .button-box {
     text-align: center;
+    padding-bottom: 100px;
 } 
 
 main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: rgb(245, 138, 16);
+    margin-bottom: 200px;  
 }
 
-.book, .join{
+.book, .join {
     background-color: rgba(245, 138, 16);
     color: rgb(57, 110, 148);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
     background-color:rgb(57, 110, 148);
-    color: rgb(251, 133, 0);
+    color: rgb(251, 133, 0); 
 }
 
 .msg{
     background-color:rgb(57, 110, 148);
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 
 .msg h2{
@@ -73,24 +96,43 @@ main section {
 
 .msg p{
     color: #fcfbfb;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .logo{
     width: 80px;
-}   
+} 
+
+#logo_link{
+    padding-top: 5px;
+}
 
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid rgb(57, 110, 148);
 }
 
 footer{
     background-color: rgba(245, 138, 16);
     text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
+    margin-bottom: 15px;
 }
 
 footer h3{
     color: rgb(2, 48, 71);
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer a{
@@ -100,6 +142,8 @@ footer a{
 
 footer a:hover{
     color: rgb(33, 158, 188);
- 
- 
+}
+
+footer .social img{
+    padding-top: 15px;
 }
