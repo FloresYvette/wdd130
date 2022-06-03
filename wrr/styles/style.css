@@ -21,7 +21,7 @@ h2 {
     margin: 0;
 }
 
-.home-little{
+.home-title{
    color: #f79310f3;
    font-size: 2em;
    margin-top: 10px;
@@ -60,9 +60,9 @@ h4{
 }
 
 #hero-img {
-    height: 600px;
     width: 100%;
 }
+
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -114,9 +114,9 @@ main section img {
     background-color:rgb(57, 110, 148);
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 6/9;
-    grid-row: 6/6;
-    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #e6bd09;
 }
 
 .msg h2{
@@ -146,21 +146,22 @@ main section img {
 }
 .home-grid {
     display: grid;  
-    grid-template-columns: repeat(10, 2fr);  
+    grid-template-columns: repeat(10, 1fr);  
+   
 }
-
-
-.rivers-card {
+.river-card {
     margin: 200px 0;
     grid-column: 2/4;
-    grid-row: 6/3;
-    
+    grid-row: 2/3;
+      
 }
 .camping-card {
+    margin: 200px 0;
     grid-column: 5/7;
     grid-row: 2/3;
 }
 .rapids-card {
+    margin: 200px 0;
     grid-column: 8/10;
     grid-row: 2/3;
 }
