@@ -1,0 +1,128 @@
+
+*{
+    box-sizing: boder-box;
+}
+
+/*.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border: 1px solid;
+  width: 80%;
+  height: 425px;
+  grid-gap: 20px;
+  justify-items: left;
+  align-content: center;
+  justify-content: left;
+  align-items: center;
+}*/
+
+.one {   
+    width: 200px; 
+    height: 200px; 
+    background-color: red; 
+   
+  } 
+  .two { 
+    width: 200px; 
+    height: 200px; 
+    background-color: green; 
+   
+   
+  } 
+  .three {
+    width: 200px; 
+    height: 200px; 
+    background-color: gold; 
+   
+  
+  } 
+  .four {
+    width: 200px; 
+    height: 200px; 
+    background-color: blue; 
+   
+  }  
+
+  .grid1 {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    border: 1px solid;
+    width: 80%;
+    height: 500px;
+    justify-content: left;
+    justify-items: left;
+  
+
+   
+  }
+
+  .red1 {   
+    width: 200px; 
+    height: 200px; 
+    background-color: red; 
+   
+  } 
+  .green1 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: green; 
+   
+   
+  } 
+  .yellow1 {
+    width: 200px; 
+    height: 200px; 
+    background-color: gold; 
+   
+  
+  } 
+  .blue1 {
+    width: 200px; 
+    height: 200px; 
+    background-color: blue; 
+   
+  }  
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    border: 1px solid;
+    width: 80%;
+    height: 500px;
+    justify-content: start;
+    align-items: center;
+    justify-items: start;
+    align-content: center;
+  
+   
+  }
+
+  .red2 {   
+    width: 200px; 
+    height: 200px; 
+    background-color: red; 
+   
+  } 
+  .green2 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: green; 
+   
+   
+  } 
+  .yellow2 {
+    width: 200px; 
+    height: 200px; 
+    background-color: gold; 
+   
+  
+  } 
+  .blue2 {
+    width: 200px; 
+    height: 200px; 
+    background-color: blue; 
+   
+  }  
