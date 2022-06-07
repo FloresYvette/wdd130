@@ -38,12 +38,13 @@
 .content2 {
   /* This is the parent of the activity 2 boxes. */
 
- 
 }
+
 .red2 {
-  width: 200px; 
-  height: 200px; 
+  width: 100px; 
+  height: 100px; 
   background-color: red; 
+ 
  
 } 
 .green2 { 
@@ -51,7 +52,7 @@
   height: 100px; 
   background-color: green; 
   margin-left: 50px;
-  margin-top: -50x;
+  margin-top: -50px;
  
 } 
 .yellow2 {
