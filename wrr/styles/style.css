@@ -220,8 +220,7 @@ div.background1 {
 .inf-rates{
     background-color:rgb(57, 110, 148);
     padding: 35px;
-    grid-column: 5/8;
-    grid-row: 5/7;
+    
     box-shadow: 5px 5px 10px #e6bd09;
 }
 
