@@ -147,7 +147,7 @@ div.background1 {
     box-shadow: 5px 5px 10px #e6bd09;
 }
 
-.inf h2{
+.inf h2, .inf-rates {
     color: #fcfbfb;
 }
 
@@ -217,16 +217,30 @@ div.background1 {
     grid-row: 5/8; 
 }
 
+.inf-rates{
+    background-color:rgb(57, 110, 148);
+    padding: 35px;
+    grid-column: 5/8;
+    grid-row: 5/7;
+    box-shadow: 5px 5px 10px #e6bd09;
+}
+
+.inf-rates p{
+    font-size: .6em; 
+    padding-bottom: 70px;
+   
+}
+
 ul{
     list-style: disc;
     list-style-position: inside;
     padding: 0;
+    color: #000; 
 }
 
-li { padding: 5px 10px;
+li { 
+    padding: 5px 10px;
     border: 1px solid #DDDDDD;
-
-
 }
 
 footer{
