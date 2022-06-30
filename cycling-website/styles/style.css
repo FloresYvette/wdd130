@@ -169,7 +169,27 @@ h2 {
     border: 10px solid rgb(57, 110, 148);
 }
 
+h2 {
+    margin: 0;
+    padding-top: 50px;
+}
 
+.dot-lines{
+    
+    font-family: Happy Monkey, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 13pt;
+    color: black;
+    border-radius: 20px;
+    border-top: 4px dotted #396E94;
+    border-bottom: 4px dotted #396E94;
+    margin: 4px auto 10px auto;
+    text-align: center;
+    padding: 4px 20px;
+    width: 900px;
+  
+
+}
 
 
 
@@ -178,17 +198,14 @@ h2 {
 
 
 footer{
-    background-color: rgba(245, 138, 16);
+    background-color: #ffbf00;
     text-decoration: none;
-    padding: 20px 225px;
+    padding: 20px 250px;
     margin-top: auto;
     justify-content: space-around;
     align-items: center;
-    display: flex;
     position: absolute;
     bottom: -1700px;
-   
-    
 }
 
 footer p{
@@ -203,11 +220,13 @@ footer a{
 }
 
 footer a:hover{
-    color:#396E94;
+    color:#a41623;
 }
 
-footer .social img{
-    padding-top: 15px;
+.social-media img{
+    width: 80px;
+    padding-top: 10px;
+
 }
 
 
