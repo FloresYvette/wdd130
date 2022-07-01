@@ -120,7 +120,6 @@ div.background1 {
 
 .msg{
     background-color:rgb(57, 110, 148);
-    line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
