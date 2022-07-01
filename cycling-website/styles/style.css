@@ -200,23 +200,28 @@ h2 {
 footer{
     background-color: #ffbf00;
     text-decoration: none;
-    padding: 20px 250px;
-    margin-top: auto;
-    justify-content: space-around;
     align-items: center;
-    position: absolute;
-    bottom: -1700px;
+    display: flex;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 1rem;
+    margin-top: 100px; 
 }
 
 footer p{
     color: rgb(2, 48, 71);
     text-decoration: none;
+    padding: 25px 50px;
+    justify-content: space-around;
     font-family: Permanent Marker, Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer a{
     color: black;
     text-decoration: none;
+    padding: 5px;
+    
+    
 }
 
 footer a:hover{
@@ -224,8 +229,9 @@ footer a:hover{
 }
 
 .social-media img{
-    width: 80px;
-    padding-top: 10px;
+    width: 50px;
+    padding-top: 15px;
+    
 
 }
 
