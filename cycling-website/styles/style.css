@@ -234,29 +234,6 @@ footer a:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 900px) {
     .cycling-grid {
       display: block;
@@ -266,7 +243,7 @@ footer a:hover{
       position: relative;
       margin: -3rem 0 2rem 1rem;
       padding: 1rem;
-      background: rgba(white, 0.8);
+     
     }
 nav, footer {
         flex-direction: column;
