@@ -2,20 +2,20 @@
 
 
 body {
-    background-color: rgb(255, 229, 180);
+    background-color: #ffb563;
     font-family: Happy Monkey, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #ffbf00;
+    background-color: #a41623;
     display: grid;
     grid-template-columns: 150px auto;
     font-family:  Permanent Marker, Geneva, Verdana, sans-serif;
 }
 .logo{
-    width: 80px;
+    width: 100px;
 } 
 
 #logo_link{
@@ -35,20 +35,20 @@ nav {
 
 nav a {
    text-align: center;
-   color: #a41623;
+   color: #ffd29d;
    text-decoration: none;
    padding: 35px;
 }
 
 nav a:hover{
-    background-color: #f85e00;
+    background-color: #918450;
     color:#396E94;
 }
 
 
 
 .home-title{
-   color: #D4AC0D;
+   color: #918450;
    font-size: 2em;
    margin-top: 10px;
 }
@@ -84,17 +84,17 @@ main {
 .cycling-img {
     border: 10px solid #a41623;
     width: 100%;
-    box-shadow: 5px 5px 10px rgb(255, 205, 4); 
+    box-shadow: 5px 5px 10px #918450; 
     grid-column: 2/6;
     grid-row: 2/6;
 }  
 .inf {
-    background-color:rgb(245, 176, 65);
+    background-color: #918450;
     line-height: 1em;
     padding: 25px;
-    grid-row: 5/3;
+    grid-row: 3/3;
     grid-column: 5/10;
-    box-shadow: 5px 5px 10px #e6bd09;
+    box-shadow: 5px 5px 10px #f85e00;
     box-sizing: border-box; 
 }
 
@@ -102,18 +102,18 @@ main {
     border: 10px solid #a41623;
     width: 100%;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #c4b70d; 
-    grid-column: span 3/10;
-    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #918450; 
+    grid-column: 5/10;
+    grid-row: 6/10;
     
 
 }  
 .inf1 {
-    background-color:rgb(245, 176, 65);
+    background-color:#918450;
     padding: 25px;
-    grid-column: 2/8;
-    grid-row: 6/6;
-    box-shadow: 5px 5px 10px #c4b70d;
+    grid-column: 2/7;
+    grid-row: 7/8;
+    box-shadow: 5px 5px 10px #f85e00;
     box-sizing: border-box;
   
   
@@ -154,7 +154,7 @@ h2 {
     box-sizing: border-box;
     border: 10px solid rgb(57, 110, 148);
     grid-column: 2;
-    box-shadow: 5px 5px 10px #c4b70d;
+    box-shadow: 5px 5px 10px #a41623;
     transition: transform .5s ; 
 }
 
@@ -162,7 +162,7 @@ h2 {
     padding: 10px;
     box-sizing: border-box;
     grid-column: 3;
-    box-shadow: 5px 5px 10px #e6bd09;
+    box-shadow: 5px 5px 10px #a41623;
     transition: transform .5s;
     border: 10px solid rgb(57, 110, 148);
 }
@@ -171,7 +171,7 @@ h2 {
     padding: 10px;
     box-sizing: border-box;
     grid-column: 4;
-    box-shadow: 5px 5px 10px #e6bd09;
+    box-shadow: 5px 5px 10px #a41623;
     transition: transform .5s;
     border: 10px solid rgb(57, 110, 148);
 }
@@ -196,7 +196,7 @@ h2 {
 }
 
 footer{
-    background-color: #ffbf00;
+    background-color: #a41623;
     text-decoration: none;
     align-items: center;
     display: flex;
@@ -223,16 +223,14 @@ footer a{
 }
 
 footer a:hover{
-    color:#a41623;
+    color:#918450;
 }
 
 .social-media img{
-    width: 50px;
+    width: 30px;
     padding-top: 15px;
-    
-
+   
 }
-
 
 @media (max-width: 900px) {
     .cycling-grid {
