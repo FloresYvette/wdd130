@@ -113,6 +113,8 @@ main {
     color: black;
     font: 500 100%/1.5 system-7i;
     font-weight: bold;
+    font-family: Permanent Marker, Geneva, Verdana, sans-serif;
+    
     
 }
 
@@ -126,6 +128,8 @@ main {
 h2 {
     margin: 0;
     padding-bottom: 15px;
+    padding-top: 50px;
+    font-family:  Permanent Marker, Geneva, Verdana, sans-serif;
 } 
 
 .image1:hover, .image2:hover, .image3:hover {
@@ -163,11 +167,6 @@ h2 {
     box-shadow: 5px 5px 10px #a41623;
     transition: transform .5s;
     border: 10px solid rgb(57, 110, 148);
-}
-
-h2 {
-    margin: 0;
-    padding-top: 50px;
 }
 
 .dot-lines{
