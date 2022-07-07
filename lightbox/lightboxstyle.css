@@ -112,6 +112,8 @@ body {
 
 img {
   margin-bottom: -4px;
+  width: 300px;
+  height: 300px;
 }
 
 .caption-container {
