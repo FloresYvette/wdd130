@@ -22,7 +22,7 @@ header {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
-}
+}i
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -155,60 +155,77 @@ h2 {
     opacity: .6;
     transform: scale(1.1);
 }
-
+/*benefits page*/
 .gallery-grid {
     display: grid;
-    grid-template-columns:  repeat(10, 1fr);
-    grid-gap:.5rem;
-    margin: 0;
-    padding: 0;
-    column-gap: 1em
-}
-  
-  /* The Picture Frame */
-  .gallery-frame {
-    padding: .5rem;
-    background-color: #a41623; 
+    grid-template-columns: auto auto auto auto auto;  
 }
 
-.gallery-frame2 {
-    padding: .5rem;
-    background-color: #a41623;
-}
-
-.gallery-frame3 {
-    padding: .5rem;
-    background-color: #a41623;
-   
-}
-  /* The Images */
+  /* The Images from benefits page */
   .gallery-img {
+    padding: 0 5px;
     width: 100%;
-    height:auto;
-    object-fit: cover;
-    transition: opacity 0.25s ease-in-out;
+    box-shadow: 5px 5px 10px #a41623; 
+    box-sizing: border-box;
+    border-radius: 5px;
 }
-
 .gallery-img:hover {
-    opacity: .7;
+    transform: scale(1.1);
+    transition: .6s;
 }
 
-.parag{
+.article{
     border: 5px solid rgb(57, 110, 148);
-    width: 100%;
-    transition: transform .5s; 
+    transition: .25s; 
     background-color: #918450;
     box-shadow: 5px 5px 10px #a41623;
-    box-sizing: border-box; 
-    grid-column: 2/7;
-    grid-row: 5/8;
   }
 
-.parag p{
+.article p{
   color: white;
   font-size: .7em;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
+  font-family:  Permanent Marker, Geneva, Verdana, sans-serif;
 }
+
+.paragraph{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 10px;
+    font-family: Rock Salt, Helvetica, Verdana, sans-serif;
+  }
+
+  .paragraph img {
+    max-width: 100%;
+    height: auto;
+  }
+  .row-img{
+    width: 100%;
+    display: grid;
+    align-items: start;
+    justify-content: stretch;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+} 
+
+.row-img1, .row-img2 {
+    width: 600px;
+   height: 337px;
+   border-radius: 50px;
+   box-shadow: 0 0 0 100px inset, 0 0 5px #a41623, 0 10px #a41623 inset;
+  transition: box-shadow 1s;
+   
+}
+.row-img1:hover, .row-img2:hover{
+    opacity: 0;
+    transition: opacity .5s;
+}
+/* End benefits page*/
 
 .gallery {
     display: grid;
@@ -256,9 +273,7 @@ h2 {
     padding: 4px 20px;
     width: 900px;
 }
-.row-image{
-    
-}
+
 
 footer{
     background-color: #a41623;
@@ -323,6 +338,15 @@ nav a {
 footer {
     margin-top: 25px;
    
+}
+.paragraph {
+position: relative;
+margin: -3rem 0 2rem 1rem;
+padding: 1rem;
+background: rgba(white, 0.8);
+display: block;
+font-size: 80%;
+
 }
 
   }
