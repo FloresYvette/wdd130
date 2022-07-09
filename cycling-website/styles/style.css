@@ -53,7 +53,7 @@ nav a:hover{
 
 #hero {
     display: grid;
-    grid-template-columns: 1f;
+ 
 
 }
 #hero-box {
@@ -165,9 +165,13 @@ h2 {
   .gallery-img {
     padding: 0 5px;
     width: 100%;
-    box-shadow: 5px 5px 10px #a41623; 
+    height: 35vh;
+    box-shadow: 5px 5px 10px rgb(57, 110, 148); 
     box-sizing: border-box;
     border-radius: 5px;
+    border: 5px solid #a41623;
+    background-color: #918450;
+   
 }
 .gallery-img:hover {
     transform: scale(1.1);
@@ -197,12 +201,16 @@ h2 {
     max-width: 800px;
     margin: 0 auto;
     font-size: 10px;
+    font-weight: bold;
     font-family: Rock Salt, Helvetica, Verdana, sans-serif;
   }
 
   .paragraph img {
     max-width: 100%;
     height: auto;
+    background-color: rgb(57, 110, 148);
+    box-shadow: 5px 5px 10px #a41623;
+    border: 5px solid #918450;
   }
   .row-img{
     width: 100%;
@@ -214,12 +222,11 @@ h2 {
 } 
 
 .row-img1, .row-img2 {
-    width: 600px;
+   width: 600px;
    height: 337px;
    border-radius: 50px;
-   box-shadow: 0 0 0 100px inset, 0 0 5px #a41623, 0 10px #a41623 inset;
-  transition: box-shadow 1s;
-   
+   box-shadow: 0 0 0 100px inset, 0 0 5px #a41623, 0 10px rgb(57, 110, 148) inset;
+   transition: box-shadow 1.5s;
 }
 .row-img1:hover, .row-img2:hover{
     opacity: 0;
@@ -343,7 +350,6 @@ footer {
 position: relative;
 margin: -3rem 0 2rem 1rem;
 padding: 1rem;
-background: rgba(white, 0.8);
 display: block;
 font-size: 80%;
 
