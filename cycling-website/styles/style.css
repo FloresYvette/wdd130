@@ -307,12 +307,12 @@ h2 {
 }
 
 .spots img{
-   height: auto;
-   max-height: 100%;
    max-width: 100%;
+   height: auto;
    grid-column: 1 / span 1;
    grid-row: 1 / span 3;
-   box-shadow: 5px 5px 10px #a41623;
+   box-shadow: 0px 0px 10px 10px #396E94;
+   border-radius: 6px;
 }
 
 .inf-trails h2{
@@ -360,7 +360,7 @@ h2 {
     margin-right: auto;
 }
 
-p{
+.middle{
     font-family: Rock Salt, Helvetica, Verdana, sans-serif;
     color: white;
     font-size: 14pt;
@@ -369,12 +369,16 @@ p{
 .location-img{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 2em;
-    align-items: stretch;
+    grid-gap: 1em;
     justify-items: center;
-  
-    
+    padding: 0 5px;
+    box-shadow: 0px 0px 10px 10px rgb(57, 110, 148); 
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 5px solid #a41623;
+    background-color: #918450;
 }
+
 .places-image img{
     max-width: 100%;
     height: auto;
