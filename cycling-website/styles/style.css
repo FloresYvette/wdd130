@@ -46,12 +46,10 @@ nav a:hover{
     color:#396E94;
 }
 
-
 #hero {
     display: grid;
- 
-
 }
+
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
@@ -390,8 +388,6 @@ h2 {
 }
 
 
-
-
 footer{
     background-color: #a41623;
     text-decoration: none;
@@ -433,16 +429,39 @@ footer a:hover{
 }
 
 @media (max-width: 900px) {
-    .cycling-grid {
+    #hero .cycling-grid .trails-grid .gallery-grid{
       display: block;
       font-size: 80%;
+      height: auto;
     }
+
     .cycling-grid p {
       position: relative;
       margin: -3rem 0 2rem 1rem;
-      padding: 1rem;
-     
-    }
+      padding: 1rem;  
+}
+#hero {
+    margin-top: 0;
+}
+
+#hero-msg {
+    margin-top: 0;
+}
+
+#hero-msg h4 {
+    display: none;
+}
+.image .image1 .image2{
+    margin: 50px auto;
+    width: 60%;
+}
+
+.gallery .gallery-img .article{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+
+}
 nav, footer {
         flex-direction: column;
 }
@@ -450,7 +469,7 @@ nav, footer {
 nav a {
         display: block;
         padding: 15px;
- }
+}
     
 footer {
     margin-top: 25px;
