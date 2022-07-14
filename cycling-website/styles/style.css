@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: #ffb563;
+    background-color: #ffa238;
     font-family: Happy Monkey, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
@@ -272,15 +272,15 @@ h2 {
 }
 /* places to go page */
 .places-title{
-    color: #918450;
+    color: #0d0d07;
     font-size: 2em;
     margin-top: 10px;
     font-size: 3.5rem;
     font-weight: 300;
     text-shadow: 0 0 1em #a41623,
-     0 0 0.125em #ffd29d,
+     0 0 0.125em #ff9214,
      -0.25em -0.125em 0.125em #a41623,
-     0.25em 0.125em 0.125em #ffd29d;
+     0.25em 0.125em 0.125em #ff9214;
  }
 
 .article-places{
@@ -360,7 +360,7 @@ h2 {
 
 .middle{
     font-family: Rock Salt, Helvetica, Verdana, sans-serif;
-    color: white;
+    color: #000000;
     font-size: 14pt;
 }
 
@@ -389,7 +389,7 @@ h2 {
 
 
 footer{
-    background-color: #a41623;
+    background-color: #a61c23;
     text-decoration: none;
     align-items: center;
     display: flex;
@@ -401,7 +401,7 @@ footer{
 }
 
 footer p{
-    color: rgb(2, 48, 71);
+    color: #fafafa;
     text-decoration: none;
     padding: 25px 50px;
     justify-content: space-around;
@@ -409,7 +409,7 @@ footer p{
 }
 
 footer a{
-    color: black;
+    color: #f7f7f7;
     text-decoration: none;
     padding: 5px;
     font-weight: bold;
