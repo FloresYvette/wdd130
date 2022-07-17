@@ -313,7 +313,7 @@ h2 {
    border-radius: 6px;
 }
 
-.inf-trails h2{
+.inf-trails h1{
     grid-column: 2 / span 2;
     font-family: Permanent Marker, Geneva, Verdana, sans-serif;
     font-size: 18pt;  
@@ -342,7 +342,7 @@ h2 {
 
 .middle-img{
     background: #918450;
-    border: 5px solid #a41623;
+    border: 5px solid #120f10;
     text-align: center;
     margin: auto;
     padding:  10px;
